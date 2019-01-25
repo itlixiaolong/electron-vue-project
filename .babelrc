@@ -1,0 +1,16 @@
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "targets": {
+          "chrome": "66",
+          "node": 10
+        }
+      }
+    ]
+  ],
+  "plugins": [
+    "dynamic-import-webpack"
+  ]
+}

@@ -1,0 +1,32 @@
+@import "../font/index.css";
+@import "./reset.scss";
+
+* {
+  font-family: pingFangSC-Regular, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.dialog-content {
+  width: 72% !important;
+
+  .van-dialog__header {
+    padding-top: 20px;
+    /* stylelint-disable-next-line */
+    font-family: PingFangSC-Medium;
+    font-size: 17px;
+    color: #4a4a4a;
+    text-align: center;
+  }
+
+  .van-dialog__message {
+    font-size: 15px;
+    color: #4a4a4a;
+    text-align: center;
+  }
+
+  .van-dialog__confirm {
+    color: #ff3b2f;
+  }
+}
